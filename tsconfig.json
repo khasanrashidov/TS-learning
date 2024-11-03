@@ -5,7 +5,8 @@
     "removeComments": true,
     "outDir": "./app/",
     "sourceMap": true,
-    "outFile": "./app/script.js"
+    "outFile": "./app/script.js",
+    "noEmitOnError": true // true: stops the generation of js files if there are errors in ts files
   },
   "files": ["app.ts"],
   "exclude": ["app"]
