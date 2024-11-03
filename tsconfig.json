@@ -1,0 +1,14 @@
+{
+  "compileOnSave": true, // true: points IDE to generate all js files on each save
+  "compilerOptions": {
+    "target": "ESNext",
+    "removeComments": true,
+    "outDir": "./app/",
+    "sourceMap": true,
+    "outFile": "./app/script.js"
+  },
+  "files": ["app.ts"],
+  "exclude": ["app"]
+}
+
+// for more options in tsconfig.json look: https://www.typescriptlang.org/tsconfig/
